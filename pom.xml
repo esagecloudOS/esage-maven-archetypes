@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>com.abiquo</groupId>
+        <artifactId>platform</artifactId>
+        <version>4.5.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.abiquo</groupId>
+    <artifactId>maven-archetypes</artifactId>
+    <packaging>pom</packaging>
+    <name>Abiquo Maven Archetypes</name>
+
+    <modules>
+        <module>storage-plugin</module>
+        <module>backup-plugin</module>
+        <module>test-archetypes</module>
+    </modules>
+
+</project>
